@@ -10,3 +10,24 @@
 ## About me:
 
 Before the war I had worked as office-manager, and I loved it. Looking for a job after the war starting, I had get to know with a web-development, and I felt in love with it. Now i'm dreaming to became a great developer, and I'm doing a lot for it.
+
+## Skills:
+
+- HTML
+- SCC
+- JavaScript (basic)
+- Git
+
+## Code Example:
+
+```
+        var countSheep = function (num) {
+                let string = '';
+
+                for (i = 0; i <= num; i++) {
+                    string += `${i} sheep...`
+                };
+
+                return string;
+            }
+```
