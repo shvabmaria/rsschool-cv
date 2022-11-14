@@ -6,6 +6,8 @@
 - Phone: +380635871620
 - E-mail: marievoloshyna@gmail.com
 - GitHub: [shvabmaria](https://github.com/shvabmaria)
+- Discord: @shvab_maria#7244
+- Telegram: @miaim7
 
 ## About me:
 
@@ -14,7 +16,7 @@ Before the war I had worked as office-manager, and I loved it. Looking for a job
 ## Skills:
 
 - HTML
-- SCC
+- CSS
 - JavaScript (basic)
 - Git
 
@@ -42,4 +44,4 @@ Before the war I had worked as office-manager, and I loved it. Looking for a job
 
 ## English
 
-B2-B1
+B2-B1. I had no specifical language practice
