@@ -31,3 +31,15 @@ Before the war I had worked as office-manager, and I loved it. Looking for a job
                 return string;
             }
 ```
+
+## Education:
+
+- 1 week free HTML/CSS marathon from GOiT
+- 2 weeks free Javascript GOiT marathon
+- 4 days Python marathon from GOiT
+- Frontend Basics course from robot_dreams
+- self-learning with [learn.javascript.ru](learn.javascript.ru), codewars, youtube etc
+
+## English
+
+B2-B1
