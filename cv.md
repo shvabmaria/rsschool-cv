@@ -1,6 +1,6 @@
 # Shvab Maria
 
-![image]()
+![IMG_20220313_210342_220](https://user-images.githubusercontent.com/106403054/201870229-1dcf1be4-f8d6-45fa-80b4-e5978d973bd7.jpg)
 
 ## Contacts:
 
@@ -32,6 +32,7 @@ Before the war I had worked as office-manager, and I loved it. Looking for a job
                     string += `${i} sheep...`
                 };
 
+
                 return string;
             }
 ```
@@ -46,4 +47,4 @@ Before the war I had worked as office-manager, and I loved it. Looking for a job
 
 ## English
 
-B2-B1. I had no specifical language practice
+B2-B1. I had a small language practice with a native speakers in my everyday life and on my job.
