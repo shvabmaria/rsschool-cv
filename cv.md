@@ -1,7 +1,5 @@
 # Shvab Maria
 
-![IMG_20220313_210342_220](https://user-images.githubusercontent.com/106403054/201870229-1dcf1be4-f8d6-45fa-80b4-e5978d973bd7.jpg)
-
 ## Contacts:
 
 - Location: Kiev, Ukraine
