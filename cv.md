@@ -6,17 +6,17 @@
 - Phone: +380635871620
 - E-mail: marievoloshyna@gmail.com
 - GitHub: [shvabmaria](https://github.com/shvabmaria)
-- Discord: @shvab_maria#7244
+- Discord: shvab_maria#7244
 - Telegram: @miaim7
 
 ## About me:
 
-Before the war I had worked as office-manager, and I loved it. Looking for a job after the war starting, I had get to know with a web-development, and I felt in love with it. Now i'm dreaming to became a great developer, and I'm doing a lot for it.
+Before the war I had worked as an office-manager, and I loved it. Looking for a job after the war starting, I had get to know with a web-development, and I fell in love with it. Now i'm dreaming to become a great developer, and I'm doing a lot for it.
 
 ## Skills:
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript (basic)
 - Git
 
