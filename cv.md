@@ -37,6 +37,10 @@ Before the war I had worked as office-manager, and I loved it. Looking for a job
 
 ## Education:
 
+National Academy of Fine Arts and Architecture, Kyiv
+
+##Courses
+
 - 1 week free HTML/CSS marathon from GOiT
 - 2 weeks free Javascript GOiT marathon
 - 4 days Python marathon from GOiT
