@@ -39,7 +39,7 @@ Before the war I had worked as office-manager, and I loved it. Looking for a job
 
 National Academy of Fine Arts and Architecture, Kyiv
 
-##Courses
+## Courses
 
 - 1 week free HTML/CSS marathon from GOiT
 - 2 weeks free Javascript GOiT marathon
