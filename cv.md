@@ -41,9 +41,9 @@ National Academy of Fine Arts and Architecture, Kyiv
 
 ## Courses
 
-- 1 week free HTML/CSS marathon from GOiT
-- 2 weeks free Javascript GOiT marathon
-- 4 days Python marathon from GOiT
+- 1 week free HTML/CSS marathon from GOIT
+- 2 weeks free Javascript GOIT marathon
+- 4 days Python marathon from GOIT
 - Frontend Basics course from robot_dreams
 - self-learning with [learn.javascript.ru](learn.javascript.ru), codewars, youtube etc
 
