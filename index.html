@@ -9,6 +9,7 @@
     <title>cv</title>
 </head>
 <body>
+<!-- header -->
     <header class="header">
         <div class="container">
             <nav class="nav">
@@ -16,20 +17,33 @@
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                     <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                     <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
                     <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
                     <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+<!-- header-profile -->
+    <header class="header-profile">
+        <div class="container container-profile">
+            <img src="assets/img/IMG_20220313_210342_220.jpg" alt="profile" class="profile-pic" height="150px" width="150px">
+            <div class="profile-name">
+                <h1 class="profile-header">Maria Shvab</h1>
+                <hr class="horisontal-line">
+                <h2>Junior front-end developer</h2>
+            </div>
+        </div>
+    </header>
+<!-- container-main -->
     <main class="main">
-        <div class="container">
-        <section class="section" id="profile"><h1 class="section-title">Maria Shvab</h1></section>
+        <div class="container container-main">
+<!-- Contacts -->
         <section class="section" id="contacts">
             <h2 class="section-title">Contacts</h2>
-            <ul>
+            <ul class="nav-list">
                 <li>Location: Kiev, Ukraine</li>
                 <li>Phone: +380635871620</li>
                 <li>E-mail: marievoloshyna@gmail.com</li>
@@ -38,49 +52,78 @@
                 <li>Telegram: @miaim7</li>
             </ul>
         </section>
+<!-- About me -->
             <section class="section" id="about-me">
                 <h2 class="section-title">About me</h2>
                 <p>Before the war I had worked as an office-manager, and I loved it. Looking for a job after the war starting, I had get to
                 know with a web-development, and I fell in love with it. Now i'm dreaming to become a great developer, and I'm doing a
                 lot for it.</p>
             </section>
+<!-- Skills -->
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
-                <ul>
+                <ul class="nav-list">
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>JavaScript (basic)</li>
                     <li>Git</li>
                 </ul>
             </section>
+<!-- Code -->
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
-                <p>
-                var countSheep = function (num) { <br>
-                let string = ''; <br>
-                            
-                for (i = 0; i <= num; i++) { <br>
-                    string +=`${i} sheep...` <br>
-                    }; <br>
-                    return string; <br>
-                    } <br>
-                </p>
+                <pre>
+                    <code>
+                        var countSheep = function (num) {
+                        let string = '';
+                        
+                        for (i = 0; i <= num; i++) {
+                            string +=`${i} sheep...`
+                            };
+                            return string;
+                            }
+                    </code>
+                </pre>
             </section>
+<!-- Courses -->
+            <section class="section" id="courses">
+                <h2>Courses</h2>
+                <ul class="nav-list">
+                    <li>1 week free HTML/CSS marathon from GOIT</li>
+                    <li>2 weeks free JavaScript GOIT marathon</li>
+                    <li>4 days Python marathon from GOIT</li>
+                    <li>Frontend Basics course from robot_dreams</li>
+                    <li>self-learning with <a href="learn.javascript.ru">learn.javascript.ru</a>, codewars, youtube etc</li>
+                </ul>
+            </section>
+<!-- Projects -->
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
                 <ul>
                     <li>item</li>
                 </ul>
             </section>
+<!-- Education -->
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
-                <p></p>
+                <p>National Academy of Fine Arts and Architecture, Kyiv</p>
             </section>
-            <section class="section" id="english"><h2 class="section-title">English</h2></section>
+<!-- English -->
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>B1 - Pre-Intermediate</p>       
+            </section>
         </div>
     </main>
+<!-- footer -->
     <footer class="footer">
-        <div class="container"></div>
+        <div class="container container-footer">
+            <div class="container-footer-nav">
+                <p>&copy; 2022</p>
+                <a href="https://github.com/shvabmaria" class="nav-link-footer" target="_blank">shvabmaria</a>
+            </div>
+            <a href="https://rs.school/js/" target="_blank"><img src="assets/svg/rs_school_js.svg" alt="rss-logo" width="100px"></a>
+        </div>
     </footer>
     
 </body>

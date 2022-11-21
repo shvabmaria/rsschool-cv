@@ -50,12 +50,64 @@ body {
     text-decoration: none;
 }
 
+.nav-link-footer {
+    padding: 0 18px;
+    line-height: 50px;
+
+    text-decoration: none;
+}
+
 .header {
     border: 1px solid green;
 }
 
+.header-profile {
+
+}
+
+.container-profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.profile-pic {
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px;
+}
+
+.profile-name {
+    text-align: center;
+    padding: 40px;
+
+}
+
+.profile-header {
+    /* border-bottom: 1px solid palevioletred; */
+}
+
 .main {
     border: 1px solid palevioletred;
+}
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-footer-nav {
+    display: flex;
+}
+
+.section {
+    width: 50%;
+    border: solid 1px red;
 }
 
 .footer {
