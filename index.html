@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/ico/cdn.cliqueinc.com__cache__posts__253245__most-beautiful-flowers-253245-1522430144413-main.700x0c-54d089becbe64976827e9ed0461e3f24.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/icons/cdn.cliqueinc.com__cache__posts__253245__most-beautiful-flowers-253245-1522430144413-main.700x0c-54d089becbe64976827e9ed0461e3f24.ico" type="image/x-icon">
     <title>cv</title>
 </head>
 <body>
 <!-- header -->
     <header class="header">
         <div class="container">
-            <nav class="nav">
-                <ul class="nav-list">
+            <nav>
+                <ul class="nav-list-links">
                     <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                     <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
@@ -31,9 +34,9 @@
         <div class="container container-profile">
             <img src="assets/img/IMG_20220313_210342_220.jpg" alt="profile" class="profile-pic" height="150px" width="150px">
             <div class="profile-name">
-                <h1 class="profile-header">Maria Shvab</h1>
-                <hr class="horisontal-line">
-                <h2>Junior front-end developer</h2>
+                <h1 class="header-name">Maria Shvab</h1>
+                <hr class="horizontal-line">
+                <h2 class="header-position">Junior front-end developer</h2>
             </div>
         </div>
     </header>
@@ -43,13 +46,27 @@
 <!-- Contacts -->
         <section class="section" id="contacts">
             <h2 class="section-title">Contacts</h2>
-            <ul class="nav-list">
-                <li>Location: Kiev, Ukraine</li>
-                <li>Phone: +380635871620</li>
-                <li>E-mail: marievoloshyna@gmail.com</li>
-                <li>GitHub: [shvabmaria](https://github.com/shvabmaria)</li>
-                <li>Discord: shvab_maria#7244</li>
-                <li>Telegram: @miaim7</li>
+            <ul class="nav-list-contacts">
+                <li class="li-contacts location">
+                    <img src="assets/icons/icons8-location-64.png" alt="loc" class="contacts-icon">
+                    <div>Kiev, Ukraine</div> 
+                </li>
+                <li class="li-contacts email">
+                    <img src="assets/icons/icons8-email-64.png" alt="em" class="contacts-icon">
+                    <div>Email: <span class="green-text"><a href="marievoloshyna@gmail.com">marievoloshyna@gmail.com</a></span></div>
+                </li>
+                <li class="li-contacts github">
+                    <img src="assets/icons/icons8-github-24.png" alt="gh" class="contacts-icon">
+                    <div>GitHub: <a href="https://github.com/shvabmaria" class="nav-link-github" target="_blank">shvabmaria</a></div>
+                </li>
+                <li class="li-contacts telegram">
+                    <img src="assets/icons/icons8-telegram-app-50.png" alt="tg" class="contacts-icon">
+                    <div>Telegram: <span class="green-text">@miaim7</span></div>
+                </li>
+                <li class="li-contacts discord">
+                    <img src="assets/icons/icons8-discord-50.png" alt="dc" class="contacts-icon">
+                    <div>Discord: <span class="green-text">shvab_maria#7244</span></div>
+                </li>
             </ul>
         </section>
 <!-- About me -->
@@ -62,7 +79,7 @@
 <!-- Skills -->
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
-                <ul class="nav-list">
+                <ul nav-list>
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>JavaScript (basic)</li>
@@ -87,19 +104,19 @@
             </section>
 <!-- Courses -->
             <section class="section" id="courses">
-                <h2>Courses</h2>
-                <ul class="nav-list">
+                <h2 class="section-title">Courses</h2>
+                <ul nav-list>
                     <li>1 week free HTML/CSS marathon from GOIT</li>
                     <li>2 weeks free JavaScript GOIT marathon</li>
                     <li>4 days Python marathon from GOIT</li>
                     <li>Frontend Basics course from robot_dreams</li>
-                    <li>self-learning with <a href="learn.javascript.ru">learn.javascript.ru</a>, codewars, youtube etc</li>
+                    <li>self-learning with <a href="learn.javascript.ru" class="nav-link-selflearn">learn.javascript.ru</a>, codewars, youtube etc</li>
                 </ul>
             </section>
 <!-- Projects -->
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
-                <ul>
+                <ul nav-list>
                     <li>item</li>
                 </ul>
             </section>
@@ -122,7 +139,7 @@
                 <p>&copy; 2022</p>
                 <a href="https://github.com/shvabmaria" class="nav-link-footer" target="_blank">shvabmaria</a>
             </div>
-            <a href="https://rs.school/js/" target="_blank"><img src="assets/svg/rs_school_js.svg" alt="rss-logo" width="100px"></a>
+            <a href="https://rs.school/js/" class="nav-link-logo" target="_blank"><img src="assets/svg/rs_school_js.svg" alt="rss-logo" width="100px"></a>
         </div>
     </footer>
     
